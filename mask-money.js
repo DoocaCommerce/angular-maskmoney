@@ -25,7 +25,7 @@
                     decimal: ',',
                     precision: 2,
                     allowZero: true,
-                    allowNegative: false,
+                    allowNegative: false
                 };
 
                 ctrl.$parsers.push(parser);
@@ -50,6 +50,7 @@
                  */
                 function formatter(value) {
                     if (value) {
+                        value = Number(value);
                         value = value.toFixed(options.precision);
                         init();
                     }
