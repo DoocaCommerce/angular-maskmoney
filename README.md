@@ -13,7 +13,7 @@ insert js in your projetct:
 <script src="assets/js/directives/mask-money.js"></script>
 ```
 
-### Html Directive
+## Development
 ```<input type="text" mask-money>```
 
 #### Custom options:
